@@ -1,0 +1,48 @@
+.blog-actions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.edit-button,
+.delete-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding:10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 48%;
+  margin-bottom: 1vh;
+  font-weight: bold;
+
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  opacity: 0.8;
+}
+
+.read-more-link {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background-color: #f8f9fa;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.read-more-link:hover {
+  background-color: #e2e6ea;
+}
+
+.no-blogs {
+  text-align: center;
+  font-size: 1.2em;
+  color: #777;
+}

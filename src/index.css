@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* For WebKit Browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+  border: 2px solid #282c34; /* Padding around thumb to create a space between the thumb and track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fff; /* Color of the scrollbar thumb when hovered */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #fff #333; /* Thumb color and track color */
+}

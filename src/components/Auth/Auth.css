@@ -1,0 +1,13 @@
+.Post-Button {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Post-Button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

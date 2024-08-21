@@ -1,0 +1,114 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    width: 97vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+  }
+  
+  .footer-left {
+    flex: 1;
+    width: 48.5vw;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    margin-right: 10px;
+    color: #61dafb;
+  }
+  
+  .company-name {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .about-text {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .footer-right {
+    display: flex;
+    margin-left: 5vw;
+    flex: 1;
+    width: 48.5vw;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+
+  }
+  
+  .copyright {
+    margin: 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 15px;
+    margin-right: 2vw;
+  }
+  
+  .footer-links a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
